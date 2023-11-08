@@ -1,5 +1,5 @@
 # Language-Compiler
-Course Project (COL106) under Prof. Rahul Garg [October 2023]: Created a compiler for a language of arithmetic infix expressions called E++, which generates code for parse trees in a target language Targ, which is assumed to execute on a stack machine. The project involved using self-implemented AVL trees for storing the addresses of variables and min-heaps for efficient memory management.
+Course Project (COL106): Created a compiler for a language of arithmetic infix expressions called E++, which generates code for parse trees in a target language Targ, which is assumed to execute on a stack machine. The project involved using self-implemented AVL trees for storing the addresses of variables and min-heaps for efficient memory management.
 ## Description of Files
 1. symnode.cpp and symtable.cpp: To implement an AVL tree to store the addresses of variables.
 2. exprtreenode.cpp and parser.cpp: To convert an input vector of tokenized expressions to a tree structure.
